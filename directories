@@ -1,3 +1,4 @@
+config.yaml
 /api/.env
 /heapdump
 /admin/heapdump
