@@ -1,3 +1,6 @@
+elementor
+.svn
+svn
 config.yaml
 api/.env
 heapdump
