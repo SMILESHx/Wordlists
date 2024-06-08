@@ -1,3 +1,4 @@
+app/etc/local.xml
 config.yaml
 api/.env
 heapdump
