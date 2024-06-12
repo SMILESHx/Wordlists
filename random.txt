@@ -1,4 +1,8 @@
 /api/v2/user/search/?query=&page=1&page_size=20
 
-#sql map header 
+##sql map header ##
 tamper=space2comment,space2morehash
+
+grep -oP '(?<=\?|&)\w+(?==|&)' urls.txt | sort -u
+
+
