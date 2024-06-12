@@ -1,0 +1,4 @@
+/api/v2/user/search/?query=&page=1&page_size=20
+
+#sql map header 
+tamper=space2comment,space2morehash
