@@ -9,6 +9,7 @@ admin/js/*.js
 admin/*brute*.ext
 admin../admin
 /anything/admin/app/etc/local.xml
+anything/admin/app/etc/local.xml
 config.yaml
 api/.env
 heapdump
