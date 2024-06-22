@@ -6,3 +6,6 @@ tamper=space2comment,space2morehash
 grep -oP '(?<=\?|&)\w+(?==|&)' urls.txt | sort -u
 
 
+Adobe dork ===  site:site.com inurl:/libs/cq/security/userinfo.json
+
+
