@@ -8,4 +8,19 @@ grep -oP '(?<=\?|&)\w+(?==|&)' urls.txt | sort -u
 
 Adobe dork ===  site:site.com inurl:/libs/cq/security/userinfo.json
 
+URL extraction?
+
+Use this:
+/https?:\/\/[^\/\s]+\.grab\.com\/[^?\s]*/
+
+Need some environment variables?
+
+You can mix the regex query with string.
+
+/\=.*\.amazon\.com\// "DB_HOST"
+
+
+Use this:
+/[a-zA-Z0-9\.\-_]*@tesla.com/
+
 
